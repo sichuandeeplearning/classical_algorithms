@@ -4,3 +4,4 @@ the code in the book of Introduction to Algorithms will be complemented in this 
 3.	FindMaximunSubarray.cpp
 4.	MaxHeapSort.cpp
 5.	MaxPriorityQueue.cpp
+6.	QuickSort.cpp
