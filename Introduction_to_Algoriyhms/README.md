@@ -6,3 +6,4 @@ the code in the book of Introduction to Algorithms will be complemented in this 
 5.	MaxPriorityQueue.cpp
 6.	QuickSort.cpp
 7.	CountingSort.cpp
+8.	Stack.cpp
