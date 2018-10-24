@@ -199,8 +199,8 @@ vector<vector<T>> Convex_Hull(vector<vector<T>> nums)
 int main()
 {
 	RNG& rng = theRNG();
-	Mat image(600, 600, CV_8UC3);
-	namedWindow("image", CV_WINDOW_AUTOSIZE);
+	Mat image(600, 600, CV_8UC3, Scalar(0, 0, 0));
+	namedWindow("Output", CV_WINDOW_AUTOSIZE);
 	Point point;
 	Point point1;
 	int count = 100;	//Ëæ»úµãÊý
@@ -237,7 +237,7 @@ int main()
 	}
 
 	
-	imshow("image", image);
+	imshow("Output", image);
 
 	waitKey(0);
 
